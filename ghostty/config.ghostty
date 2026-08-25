@@ -1,0 +1,32 @@
+# --- Typography & Appearance ---
+font-family = "Hack Nerd Font Mono"
+font-style-bold = true 
+font-size = 18.0
+theme = cyberdream
+
+# 1. Distribute leftover window space evenly on all sides instead of dumping it at the bottom
+window-inherit-working-directory = true
+window-padding-balance = true
+
+# 2. Prevent giant gaps by clipping extra cell height dynamically when resizing/zooming
+window-step-resize = true
+
+# 3. Enable visual feedback for grid dimensions while zooming
+resize-overlay = always
+window-padding-x = 9
+window-padding-y = 9
+window-decoration = true
+adjust-cell-height = 15%
+# --- General Usability ---
+copy-on-select = true
+confirm-close-surface = false
+mouse-hide-while-typing = true
+
+
+# --- Neovim & Terminal ---
+# Smooth cursor animation & modern block shape
+cursor-style  = block
+cursor-style-blink = false
+
+
+
